@@ -246,15 +246,16 @@ span i{
     font-size: 21px;
 }
 
-@media (max-width:450px){
+@media (max-width:750px){
 
     body{
         padding: 10px;
-        gap: 0px;
+        gap: 3px;
     }
     .wrapper{
-        padding: 20px;
+        padding: 10px;
         margin-top: -45%;
+        
     
     }
 
@@ -266,8 +267,29 @@ span i{
         font-size: 2rem;
     }
 
-    .content a{
-        font-size: 1rem;
+    .content .media-icons a{
+        font-size: 1px;
+    }
+
+    .media-icons{
+        width: auto;
+        padding: 2px;
+    }
+
+    span i{
+        font-size: smaller;
+    }
+
+    .media-content a{
+        font-size: 8px;
+    }
+
+    #lin,#github,#insta{
+        font-size: 16px;
+    }
+
+    #slin{
+        width: 5px;
     }
     
     
